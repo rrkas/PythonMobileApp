@@ -1,0 +1,44 @@
+installing kivy--------------------------------
+
+$ python -m pip install --upgrade pip setuptools virtualenv
+or
+$ pip install --upgrade pip
+
+$ pip3 install virtualenv
+$ python3 -m virtualenv -p python3 virtual
+$ source "/home/rohnak/PythonMobDev/source 1/virtual/bin/activate"
+(virtual) $ pip3 install kivy
+(virtual) $ pip3 install kivy_examples
+
+Pong Pong Game---------------------------------
+steps:
+1   create app class
+2   create game
+3   build game
+4   run app
+
+CONVERT to APK----------------------------------
+
+1   use linux environment
+2   install python3     (python version MUST be > 3.5)
+    $ sudo apt-get upgrade
+    $ sudo apt-get -y upgrade
+3   install pip
+    $ sudo apt-get install -y python3-pip
+4   setup virtual environment
+    $ sudo apt-get install -y python3-venv
+    $ mkdir environments
+    $ cd environments
+    $ python3 -m venv -p python3 virtual
+    $ source my_env/bin/activate
+5   install required packages
+    (virtual) $ pip3 install --upgrade buildozer
+    (virtual) $ sudo apt install -y git zip unzip openjdk-8-jdk
+    (virtual) $ sudo apt install -y autoconf libtool pkg-config zlib1g-dev libncurses5-dev libncursesw5-dev libtinfo5 cmake libffi-dev libssl-dev
+    (virtual) $ pip3 install --upgrade cython
+    (virtual) $ export PATH=$PATH:~/.local/bin/
+6   building app
+    (virtual) $ cd PongApp
+    (virtual) $ buildozer init
+    (virtual) $ buildozer -v android debug
+
