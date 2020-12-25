@@ -1,6 +1,4 @@
-#!/bin/sh
-'''exec' "/home/rohnak/PythonMobDev/source 1/virtual/bin/python3" "$0" "$@"
-' '''
+#!/home/rohnak/PythonMobDev/virtual/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

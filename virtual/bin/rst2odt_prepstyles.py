@@ -1,4 +1,4 @@
-#!/home/rohnak/PythonMobDev/source 1/virtual/bin/python3
+#!/home/rohnak/PythonMobDev/virtual/bin/python
 
 # $Id: rst2odt_prepstyles.py 8346 2019-08-26 12:11:32Z milde $
 # Author: Dave Kuhlman <dkuhlman@rexx.com>

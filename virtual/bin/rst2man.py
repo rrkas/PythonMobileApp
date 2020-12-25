@@ -1,4 +1,4 @@
-#!/home/rohnak/PythonMobDev/source 1/virtual/bin/python3
+#!/home/rohnak/PythonMobDev/virtual/bin/python
 
 # Author:
 # Contact: grubert@users.sf.net

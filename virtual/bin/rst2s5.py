@@ -1,4 +1,4 @@
-#!/home/rohnak/PythonMobDev/source 1/virtual/bin/python3
+#!/home/rohnak/PythonMobDev/virtual/bin/python
 
 # $Id: rst2s5.py 4564 2006-05-21 20:44:42Z wiemann $
 # Author: Chris Liechti <cliechti@gmx.net>
